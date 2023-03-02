@@ -4,6 +4,7 @@
     --font-family: 'Roboto', sans-serif;
     --bg-color: #AAE3E2;
     --primary-color: #03001C;
+    --btn-color: #FEFBE9;
 }
 body {
     background-color: var(--bg-color);
@@ -37,4 +38,12 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--btn-color);
+    border-radius: 5px;
+    margin-top: 20px;
 }
